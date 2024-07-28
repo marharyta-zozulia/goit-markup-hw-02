@@ -45,9 +45,13 @@ button{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #434455;
 }
-.header-address{
+.header-menu-link:hover,header-menu-link:focus{
+    color: #404bbf
+}
+
+.header-address {
     font-style: normal;
     color: #434455;
 
@@ -83,6 +87,9 @@ button{
     letter-spacing: 0.04em;
      color: #fff;
 
+}
+.order-service-button:hover {
+color: #404bbf
 }
 
 .features-section {}
