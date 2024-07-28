@@ -10,6 +10,9 @@ ul{
 a {
     text-decoration: none;
 }
+button{
+    cursor: pointer;
+}
 
 .visually-hidden {
     position: absolute;
@@ -54,7 +57,7 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #434455 ;
 }
 /* ------------------------------------- */
 .intro-section{
@@ -105,18 +108,23 @@ a {
         color: #434455;
 }
 
-.team-section {}
+.team-section {
+    background-color:#F4F4FD ;
+}
 
 .team-title { font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;}
 
 .team-list {}
 
-.team-member {}
+.team-member {
+    background-color: #FFFFFF
+}
 
 .team-member-image { }
 
@@ -135,6 +143,16 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;}
+
+.portfolio-title{
+font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
 
 .portfolio-item-title{
     font-weight: 500;
@@ -160,10 +178,10 @@ a {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #f4f4fd;
+        color: #4d5ae5;
 }
 
 .footer-logo-studio{
