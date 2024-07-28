@@ -1,9 +1,16 @@
 body {
-    font-family: 'Roboto' sans-serif;
+    font-family: "Roboto" sans-serif;
     color: #434455;
     background: #fff;
 
 }
+ul{
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+/* ----------HEADER----------- */
 .header-logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -26,6 +33,7 @@ body {
 }
 .header-address{
     font-style: normal;
+    color: #434455;
 
 }
 .header-contact-item{
@@ -35,8 +43,29 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
+/* ------------------------------------- */
 .intro-section{
     background-color: #fff;
+    background-color: #2e2f42;
+
+}
+.intro-title{ 
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+
+}
+.order-service-button{
+    background: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+     color: #fff;
 
 }
 .portfolio-item-title{
