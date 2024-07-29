@@ -67,10 +67,13 @@ button{
     letter-spacing: 0.02em;
     color: #434455;
 }
-.header-contact-item:hover{
+ .header-contact-link {
+     color: #434455;}
+
+.header-contact-link:hover{
     color: #404bbf
 }
-.header-contact-item:focus {
+.header-contact-link:focus {
     color: #404bbf
 }
 
