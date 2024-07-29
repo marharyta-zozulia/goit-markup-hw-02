@@ -48,7 +48,7 @@ button{
     color: #2e2f42;
 }
 .header-menu-link:hover, .header-menu-link:focus{
-    color: #404bbf
+    background-color: #404bbf
 }
 
 .header-address {
@@ -89,7 +89,7 @@ button{
 
 }
 .order-service-button:hover, .order-service-button:focus {
-color: #404bbf
+  background-color: #404bbf
 }
 
 .features-section {}
